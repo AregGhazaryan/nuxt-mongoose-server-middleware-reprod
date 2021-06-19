@@ -3,7 +3,9 @@
 ## The issue
 
 For some reason, hot reload doesnt work properly when the application has serverMiddleware.
+
 **Note. This issue is not only mongoose related but the entire script written in serverMiddleware is being reinstantiated.**
+
 **ServerMiddleware Error: Cannot overwrite User model once compiled.**
 
 Simply do the following 
